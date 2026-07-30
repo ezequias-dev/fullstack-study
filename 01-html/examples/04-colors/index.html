@@ -1,7 +1,9 @@
-<!DOCTYPE hmtl>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Colors</title>
 
     <style>
@@ -9,23 +11,32 @@
             text-align: center;
             padding: 10px 0;
         }
+
+        .color-sample {
+            padding: 10px;
+        }
     </style>
 </head>
 
 <body>
-    <h1 style="background-color: dodgerblue;">Hello World</h1>
-    <p style="background-color: tomato;">Lorem...</p>
+    <h1>HTML Colors</h1>
 
-    <h1 style="border: 2px dotted tomato;">Hello World</h1>
-    <h1 style="border: 2px dashed dodgerblue;">Hello World</h1>
-    <h1 style="border: 2px solid violet;">Hello World</h1>
+    <h2>Background colors</h2>
+    <p class="color-sample" style="background-color: dodgerblue;">Hello World</p>
+    <p class="color-sample" style="background-color: tomato;">This paragraph uses a tomato background.</p>
 
-    <h1 style="background-color: rgb(255, 99, 71);color: white;">rgb(255, 99, 71)</h1>
-    <h1 style="background-color: #ff6347;color: white;">#ff6347</h1>
-    <h1 style="background-color: hsl(9, 100%, 64%);color: white;">hsl(9, 100%, 64%)</h1>
-    
-    <h1 style="background-color: rgba(255, 99, 71, 0.5);color: white;">rgba(255, 99, 71, 0.5)</h1>
-    <h1 style="background-color: hsla(9, 100%, 64%, 0.5);color: white;">hsla(9, 100%, 64%, 0.5)</h1>
+    <h2>Border colors</h2>
+    <p class="color-sample" style="border: 2px dotted tomato;">Hello World</p>
+    <p class="color-sample" style="border: 2px dashed dodgerblue;">Hello World</p>
+    <p class="color-sample" style="border: 2px solid violet;">Hello World</p>
+
+    <h2>Color values</h2>
+    <p class="color-sample" style="background-color: rgb(255, 99, 71);">rgb(255, 99, 71)</p>
+    <p class="color-sample" style="background-color: #ff6347;">#ff6347</p>
+    <p class="color-sample" style="background-color: hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</p>
+
+    <p class="color-sample" style="background-color: rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</p>
+    <p class="color-sample" style="background-color: hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</p>
 </body>
 
 </html>

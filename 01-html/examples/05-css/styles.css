@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.external-style {
+    color: darkblue;
+    border-left: 4px solid darkblue;
+    padding-left: 8px;
+}
